@@ -1,0 +1,19 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  transition: 0.3s;
+  background-color: darkblue;
+}
+
+#btn:focus,
+#btn:focus-visible {
+  color: green;
+}
